@@ -1,0 +1,23 @@
+:root {
+    /* Main background */
+    --base: rgb(48, 52, 70);
+
+    /* Secondary bacgrounds */
+    --mantle: rgb(41, 44, 60);
+    --crust: rgb(35, 38, 52);
+
+    /* Surface Elements */
+    --surface-0: rgb(65, 69, 89);
+    --surface-1: rgb(81, 87, 109);
+    --surface-2: rgb(98, 104, 128);
+
+    /* Overlays */
+    --overlay-0: rgb(115, 121, 148);
+    --overlay-1: rgb(131, 139, 167);
+    --overlay-2: rgb(148, 156, 187);
+
+    /* Text */
+    --text: rgb(198, 208, 245);
+    --label-0: rgb(165, 173, 206);
+    --lable-1: rgb(181, 191, 226);
+}

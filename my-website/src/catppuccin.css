@@ -1,0 +1,81 @@
+:root {
+    /* Main background */
+    --base:     rgb(48, 52, 70);
+
+    /* Secondary bacgrounds */
+    --mantle:   rgb(41, 44, 60);
+    --crust:    rgb(35, 38, 52);
+
+    /* Surface Elements */
+    --surface-2:rgb(98, 104, 128);
+    --surface-1:rgb(81, 87, 109);
+    --surface-0:rgb(65, 69, 89);
+
+    /* Overlays */
+    --overlay-2:rgb(148, 156, 187);
+    --overlay-1:rgb(131, 139, 167);
+    --overlay-0:rgb(115, 121, 148);
+
+    /* Text */
+    --text:     rgb(198, 208, 245);
+    --subtext-1:rgb(181, 191, 226);
+    --subtext-0:rgb(165, 173, 206);
+
+    /* Accents */
+    --rosewater:rgb(242, 213, 207);
+    --flamingo: rgb(238, 190, 190);
+    --pink:     rgb(244, 184, 228);
+    --mauve:    rgb(202, 158, 230);
+    --red:      rgb(231, 130, 132);
+    --maroon:   rgb(234, 153, 156);
+    --peach:    rgb(239, 159, 118);
+    --yellow:   rgb(229, 200, 144);
+    --green:    rgb(166, 209, 137);
+    --teal:     rgb(129, 200, 190);
+    --sky:      rgb(153, 209, 219);
+    --saphire:  rgb(133, 193, 220);
+    --blue:     rgb(140, 170, 238);
+    --lavender: rgb(186, 187, 241);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        /* Main background */
+        --base:     rgb(239, 241, 245);
+
+        /* Secondary bacgrounds */
+        --mantle:   rgb(230, 233, 239);
+        --crust:    rgb(220, 224, 232);
+
+        /* Surface Elements */
+        --surface-2:rgb(172, 176, 190);
+        --surface-1:rgb(188, 192, 204);
+        --surface-0:rgb(204, 208, 218);
+
+        /* Overlays */
+        --overlay-2:rgb(124, 127, 147);
+        --overlay-1:rgb(140, 143, 161);
+        --overlay-0:rgb(156, 160, 176);
+
+        /* Text */
+        --text:     rgb(76, 79, 105);
+        --subtext-1:rgb(92, 95, 119);
+        --subtext-0:rgb(108, 111, 133);
+
+        /* Accents */
+        --rosewater:rgb(220, 138, 120);
+        --flamingo: rgb(221, 120, 120);
+        --pink:     rgb(234, 118, 203);
+        --mauve:    rgb(136, 57, 239);
+        --red:      rgb(210, 15, 57);
+        --maroon:   rgb(230, 69, 83);
+        --peach:    rgb(254, 100, 11);
+        --yellow:   rgb(223, 142, 29);
+        --green:    rgb(64, 160, 43);
+        --teal:     rgb(23, 146, 153);
+        --sky:      rgb(4, 165, 229);
+        --saphire:  rgb(32, 159, 181);
+        --blue:     rgb(30, 102, 245);
+        --lavender: rgb(114, 135, 253);
+    }
+}

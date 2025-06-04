@@ -2,8 +2,6 @@
 <html lang="en-US">
   <head>
     <title>A website made WITHOUT tutorials.</title>
-    <link rel="stylesheet" href="catppuccin_frappe.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="catppuccin_latte.css" media="(prefers-color-scheme: light)">
     <link href="./src/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -13,11 +11,17 @@
           <h1 id="title-el">No Tutorial</h1>
           <h4 id="subtitle">This webside is made no tutorials.</h4>
         </div>
-        <p class="grid-item" id="paragraph-1" style="grid-row: 2; grid-column: 1/ span 2;"></p>
-        <img src="/gretel.png" class="grid-item" style="grid-row: 2; grid-column: 3;" />
-        <p class="grid-item" id="paragraph-2" style="grid-row: 3; grid-column: 2;"></p>
-        <img src="/gretel.png" class="grid-item" style="grid-row: 3; grid-column: 1;" />
-        <img src="/gretel.png" class="grid-item" style="grid-row: 3; grid-column: 3;" />
+        <article class="grid-element" id="paragraph-1" style="grid-row: 2; grid-column: 1/ span 2;"></article>
+        <div class="image-wrapper grid-element" style="grid-row: 2; grid-column: 3;">
+          <img src="/gretel.png" />
+        </div>
+        <article class="grid-element" id="paragraph-2" style="grid-row: 3; grid-column: 2;"></article>
+        <div class="image-wrapper grid-element" style="grid-row: 3; grid-column: 1;">
+          <img src="/gretel.png" />
+        </div>
+        <div class="image-wrapper grid-element" style="grid-row: 3; grid-column: 3;">
+          <img src="/gretel.png" />
+        </div>
       </div>
     </div>
     <script type="module" src="./src/main.js"></script>
